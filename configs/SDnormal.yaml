@@ -1,0 +1,16 @@
+DATA:
+    ROOT: 'G:\\data\\SDnormal\\'
+    TRAIN_FILE: './labels/SDnormal_train.txt'
+    VAL_FILE: './labels/SDnormal_eval.txt'
+    DATASET: SHT
+    NUM_CLIPS: 16
+    NUM_FRAMES: 5
+    FRAME_INTERVAL: 4
+    NUM_CLASSES: 2
+    LABEL_LIST: 'labels/traffic_2_labels.csv'
+    FILENAME_TMPL: '{}.jpg'
+MODEL:
+    ARCH: ViT-B/32
+TRAIN:
+    BATCH_SIZE: 2
+    ACCUMULATION_STEPS: 8
