@@ -24,5 +24,16 @@ features/
 └── TAD/         # Features for TAD dataset
 ```
 ## Our Dataset
-the SDnormal dataset is available at (https://drive.google.com/file/d/1nmtenSv_4r8_DJQWe3IMEJ9jOHTc9jaN/view?usp=sharing) in the form of extracted frames. Alternatively, you can download the dataset in video format, available at ().
-
+the SDnormal dataset is available at (https://drive.google.com/file/d/1nmtenSv_4r8_DJQWe3IMEJ9jOHTc9jaN/view?usp=sharing) in the form of extracted frames. Alternatively, you can download the dataset in video format, available at (). organize the frames directory as follows:
+```
+SDnormal/
+└── frames/
+├── normal/
+│ ├── 0.jpg
+│ ├── 1.jpg
+│ └── …
+└── abnormal/
+├── 0.jpg
+├── 1.jpg
+└── …
+```
