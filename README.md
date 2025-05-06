@@ -18,7 +18,8 @@ This repository is for Scene-dependent anomaly detection: a benchmark and weakly
 ## Video Feature Extraction
 if you want to use two-stage method, you can download the features from here (https://drive.google.com/file/d/1DzA4ec_y1VNeNZljziB3rPSkEpAoISIr/view?usp=sharing).
 After downloading, organize the features directory as follows:
-```features/
+```
+features/
 ├── SHT/         # Features for ShanghaiTech dataset
 └── TAD/         # Features for TAD dataset
 ```
