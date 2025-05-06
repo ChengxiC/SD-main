@@ -21,7 +21,7 @@ After downloading, organize the features directory as follows:
 ```features/
 ├── SHT/         # Features for ShanghaiTech dataset
 └── TAD/         # Features for TAD dataset
-
+```
 ## Our Dataset
 the SDnormal dataset is available at (https://drive.google.com/file/d/1nmtenSv_4r8_DJQWe3IMEJ9jOHTc9jaN/view?usp=sharing) in the form of extracted frames. Alternatively, you can download the dataset in video format, available at ().
 
