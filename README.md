@@ -18,5 +18,5 @@ This repository is for Scene-dependent anomaly detection: a benchmark and weakly
 ## Video Feature Extraction
 if you want to use two-stage method, you can download the features from here (https://drive.google.com/file/d/1DzA4ec_y1VNeNZljziB3rPSkEpAoISIr/view?usp=sharing)
 ## Our Dataset
-the SDnormal dataset is available at (https://drive.google.com/file/d/1nmtenSv_4r8_DJQWe3IMEJ9jOHTc9jaN/view?usp=sharing)
+the SDnormal dataset is available at (https://drive.google.com/file/d/1nmtenSv_4r8_DJQWe3IMEJ9jOHTc9jaN/view?usp=sharing) in the form of extracted frames. Alternatively, you can download the dataset in video format, available at ().
 
