@@ -129,20 +129,6 @@ class XCLIP(CLIP):
 
         return video_features, img_features
 
-    # def encode_video(self, image):
-    #     b, t, c, h, w = image.size()
-    #     image = image.reshape(-1, c, h, w)
-    #
-    #     cls_features, img_features = self.encode_image(image)
-    #     img_features = self.prompts_visual_ln(img_features)
-    #     img_features = img_features @ self.prompts_visual_proj
-    #
-    #     cls_features = cls_features.view(b, t, -1)
-    #     img_features = img_features.view(b, t, -1, cls_features.shape[-1])
-    #
-    #     video_features = self.mit(cls_features)
-    #
-    #     return video_features, img_features
 
     def cache_text(self, text, train_flag):
         self.eval()
