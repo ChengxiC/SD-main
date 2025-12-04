@@ -15,14 +15,6 @@ This repository is for Scene-dependent anomaly detection: a benchmark and weakly
 - shutil
 - ftfy
 
-## Video Feature Extraction
-if you want to use two-stage method, you can download the features from here (https://drive.google.com/file/d/1DzA4ec_y1VNeNZljziB3rPSkEpAoISIr/view?usp=sharing).
-After downloading, organize the features directory as follows:
-```
-features/
-├── SHT/         # Features for ShanghaiTech dataset
-└── TAD/         # Features for TAD dataset
-```
 ## Extract Frames
 use the extract_frames.py to extract frames firstly.
 
