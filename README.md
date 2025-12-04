@@ -46,3 +46,4 @@ SDnormal/
 ├── 1.jpg
 └── …
 ```
+We sincerely thank Lv Hui and the co-authors of UMIL for publicly releasing their code, which has greatly facilitated our implementation and experiments in this work.
