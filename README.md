@@ -31,7 +31,7 @@ The SDnormal dataset is available on Google Drive:
 [Download SDnormal.zip] (https://drive.google.com/file/d/12TKdFuaUN-rybZ2rrZz-pQKdZ4-tVtsx/view?usp=drive_link)
 
 We also provide pre-extracted I3D features of SDnormal, which can be downloaded from  
-[here](https://drive.google.com/file/d/1GUCn6wCpyZzpINGyxHJzxWfvaj2eceEg/view?usp=sharing).
+[here] (https://drive.google.com/file/d/1GUCn6wCpyZzpINGyxHJzxWfvaj2eceEg/view?usp=sharing).
 
 The frame directory is organized as follows:
 ```
