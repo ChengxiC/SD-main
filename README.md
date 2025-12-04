@@ -27,7 +27,13 @@ features/
 use the extract_frames.py to extract frames firstly.
 
 ## Our Dataset
-the SDnormal dataset is available at (https://drive.google.com/file/d/1nmtenSv_4r8_DJQWe3IMEJ9jOHTc9jaN/view?usp=sharing) in the form of extracted frames. Alternatively, you can download the dataset in video format, available at (), organize the frames directory as follows:
+The SDnormal dataset is available on Google Drive:  
+[Download SDnormal.zip] (https://drive.google.com/file/d/12TKdFuaUN-rybZ2rrZz-pQKdZ4-tVtsx/view?usp=drive_link)
+
+We also provide pre-extracted I3D features of SDnormal, which can be downloaded from  
+[here](https://drive.google.com/file/d/1GUCn6wCpyZzpINGyxHJzxWfvaj2eceEg/view?usp=sharing).
+
+The frame directory is organized as follows:
 ```
 SDnormal/
 └── frames/
