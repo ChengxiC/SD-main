@@ -29,13 +29,25 @@ The frame directory is organized as follows:
 ```
 SDnormal/
 └── frames/
-├── normal/
-│ ├── 0.jpg
-│ ├── 1.jpg
-│ └── …
-└── abnormal/
-├── 0.jpg
-├── 1.jpg
-└── …
+    ├── normal/
+    │   ├── video_001/
+    │   │   ├── 0.jpg
+    │   │   ├── 1.jpg
+    │   │   └── …
+    │   ├── video_002/
+    │   │   ├── 0.jpg
+    │   │   ├── 1.jpg
+    │   │   └── …
+    │   └── …
+    └── abnormal/
+        ├── video_101/
+        │   ├── 0.jpg
+        │   ├── 1.jpg
+        │   └── …
+        ├── video_102/
+        │   ├── 0.jpg
+        │   ├── 1.jpg
+        │   └── …
+        └── …
 ```
 We sincerely thank Lv Hui and the co-authors of UMIL for publicly releasing their code, which has greatly facilitated our implementation and experiments in this work.
