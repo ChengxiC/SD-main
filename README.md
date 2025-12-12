@@ -2,6 +2,24 @@
 ## Introduction
 This repository is for Scene-dependent anomaly detection: a benchmark and weakly supervised model
 
+SDNormal is a **synthetic, scene-dependent** video anomaly detection (VAD) benchmark created with **Unity 3D**. It contains **31 scenes** (2D backgrounds + 3D animations) and **7 scene-dependent anomaly types**:
+- Dancing
+- Fighting
+- Knife holding
+- Motorcycling
+- Running
+- Telephoning
+- Vehicle movement
+
+**Video specs**
+- Resolution: 1280 × 720
+- Frame rate: 30 FPS
+- Average duration: ~15 seconds per video
+
+The dataset provides **video-level** labels (Normal/Abnormal + context) and **frame-level** labels (0 for normal, 1 for abnormal) with **start/end** positions of abnormal segments. Two annotation formats are available:
+- **Single-modal**: standard weakly-supervised VAD binary labels
+- **Bimodal**: text labels describing activities (useful for video-text feature extractors, e.g., XCLIP-family)
+
 
 ## Requirements
 - Python 3.9
